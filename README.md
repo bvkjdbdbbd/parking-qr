@@ -1,18 +1,16 @@
 <div align="center">
 
-# 🚗 Hệ thống Gửi Xe Thông Minh bằng QR (Python)
+# Hệ thống Gửi Xe Thông Minh bằng QR (Python)
 
-[![status](https://img.shields.io/badge/status-MVP-green)](#)
-[![python](https://img.shields.io/badge/Python-3.10%2B-blue)](#)
-
-*MVP: Quét QR IN/OUT • Tính phí theo bảng giá • Thu **tiền mặt** • Sinh e-receipt • Dashboard báo cáo*
+MVP: quét QR tại cổng, tính phí theo bảng giá, chốt thu tiền mặt, sinh e-receipt; kèm dashboard báo cáo.
 </div>
 
 ## Nội dung
-- [Tổng quan](#tổng-quan)
-- [Kiến trúc & Công nghệ](#kiến-trúc--công-nghệ)
-- [Tài liệu BA](#tài-liệu-ba)
-- [Roadmap](#roadmap)
+- Tổng quan
+- Kiến trúc & Công nghệ
+- Tính năng chính
+- [Tài liệu BA](https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing)
+- Roadmap 
 
 ## Tổng quan
 - Bài toán: vé giấy thủ công → dễ sai, khó theo dõi, thiếu minh bạch.  
@@ -24,7 +22,12 @@
 > Ghi chú ERD: mỗi user **chỉ có 1 phiên đang IN** tại một thời điểm (enforce bằng partial unique index ở DB thật).
 
 ## Tài liệu BA
-- **Google Docs:** https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing
+> **Ghi chú Tài liệu BA**  
+> - Mô tả bối cảnh & mục tiêu MVP: quét QR IN/OUT, tính phí, thu tiền mặt, e-receipt, báo cáo.  
+> - Actors & 5 chức năng chính; FR/NFR rút gọn, Data Flow vào/ra.  
+> - Sơ đồ **Use Case** & **Swimlane To-Be** (có nhánh lỗi/Reject).  
+> - **ERD**: users, sessions, payments, tickets, tariffs, qr_tokens, audit_logs  
+> - 1 **User Story** + **Acceptance Criteria** theo mẫu Given–When–Then.
 
 ## Roadmap
 - [ ] QR động (nonce + exp theo phiên)  
@@ -34,4 +37,4 @@
 - [ ] RBAC chi tiết theo ca/khu; observability (metrics/logs)
 
 ---
-<sub>MIT © 2025 — Your Name/Team</sub>
+<sub> Châu Anh</sub>
