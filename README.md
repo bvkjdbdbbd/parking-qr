@@ -5,26 +5,27 @@
 ## Nội dung
 - [Tổng quan](#tổng-quan)
 - [Kiến trúc & Công nghệ](#kiến-trúc--công-nghệ)
+- [Chạy nhanh](#chạy-nhanh)
 - [Cấu trúc thư mục](#cấu-trúc-thư-mục)
 - [Sơ đồ & Tài liệu BA](#sơ-đồ--tài-liệu-ba)
 - [Roadmap](#roadmap)
 
 ## Tổng quan
-- Bài toán: quy trình vé giấy thủ công → dễ sai, khó theo dõi, thiếu minh bạch.
+- Quy trình vé giấy thủ công → dễ sai, khó theo dõi, thiếu minh bạch.
 - Giải pháp: cấp QR cho sinh viên; bảo vệ quét IN/OUT; hệ thống tính phí, ghi thanh toán, sinh e-receipt; admin xem báo cáo/export.
 - Phạm vi MVP: thu **tiền mặt** (cash). Ví/CK triển khai giai đoạn sau.
 
 ## Kiến trúc & Công nghệ
-- **Backend:** Python (Flask/FastAPI), JWT cho QR (exp/nonce).
+- **Backend:** Python (Flask **hoặc** FastAPI), JWT cho QR (exp/nonce).
 - **DB:** SQLite (dev) / PostgreSQL (prod). Migration: Alembic (tùy chọn).
-- **Frontend:** HTML/JS (hoặc admin template tùy nhóm).
+- **Frontend:** HTML/JS đơn giản hoặc admin template.
 - **Triển khai:** `.env`, (tùy chọn) Docker Compose.
 
 ## Chạy nhanh
 ```bash
-git clone https://github.com/<your-org>/<repo>.git
-cd <repo>
+git clone https://github.com/<your-username>/parking-qr.git
+cd parking-qr
 python -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env
-python app.py    # hoặc: uvicorn app:app --reload
+python app.py    # hoặc: uvicorn app:app --reload (nếu dùng FastAPI)
