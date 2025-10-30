@@ -7,7 +7,7 @@
 - Kiến trúc & Công nghệ 
 - Chạy nhanh 
 - Cấu trúc thư mục 
-- **Tài liệu BA:**[Tài liệu BA](https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing)
+- [Tài liệu BA](https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing)
 - [Roadmap](#roadmap)
 
 ## Tổng quan
