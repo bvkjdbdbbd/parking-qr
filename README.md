@@ -1,10 +1,11 @@
 # Hệ thống Gửi Xe Thông Minh bằng QR (Python)
 
-> MVP: quét QR tại cổng, tính phí theo bảng giá, chốt thu tiền mặt, sinh biên nhận; kèm dashboard báo cáo.
+> MVP: quét QR tại cổng, tính phí theo bảng giá, chốt thu tiền mặt, sinh viên nhận; kèm dashboard báo cáo.
 
 ## Nội dung
 - Tổng quan
-- Kiến trúc & Công nghệ 
+- Kiến trúc & Công nghệ
+- Tính năng chính
 - Chạy nhanh 
 - Cấu trúc thư mục 
 - [Tài liệu BA](https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing)
@@ -20,6 +21,14 @@
 - **DB:** SQLite (dev) / PostgreSQL (prod). Migration: Alembic (tùy chọn).
 - **Frontend:** HTML/JS đơn giản hoặc admin template.
 - **Triển khai:** `.env`, (tùy chọn) Docker Compose.
+
+### Tính năng chính (MVP)
+| Tính năng | Mô tả ngắn |
+|---|---|
+| Quét QR IN/OUT | Xác thực mã, mở/kết thúc phiên |
+| Tính phí | Bảng giá có block & min fee khi OUT |
+| Thu tiền mặt + e-receipt | Chốt thu, sinh biên nhận tra cứu |
+| Báo cáo | Tổng lượt/thu, export CSV |
 
 ## Chạy nhanh
 ```bash
