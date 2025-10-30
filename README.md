@@ -3,11 +3,11 @@
 > MVP: quét QR tại cổng, tính phí theo bảng giá, chốt thu tiền mặt, sinh biên nhận; kèm dashboard báo cáo.
 
 ## Nội dung
-- (#tổng-quan) 
-- [Kiến trúc & Công nghệ](#kiến-trúc--công-nghệ)
-- [Chạy nhanh](#chạy-nhanh)
-- [Cấu trúc thư mục](#cấu-trúc-thư-mục)
-- **Tài liệu BA:**[Tại đây](https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing)
+- Tổng quan
+- Kiến trúc & Công nghệ 
+- Chạy nhanh 
+- Cấu trúc thư mục 
+- **Tài liệu BA:**[Tài liệu BA](https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing)
 - [Roadmap](#roadmap)
 
 ## Tổng quan
