@@ -7,7 +7,8 @@
 - [Kiến trúc & Công nghệ](#kiến-trúc--công-nghệ)
 - [Chạy nhanh](#chạy-nhanh)
 - [Cấu trúc thư mục](#cấu-trúc-thư-mục)
-- [Sơ đồ & Tài liệu BA](#sơ-đồ--tài-liệu-ba)
+-## Sơ đồ & Tài liệu BA
+- **Tài liệu BA (Google Docs):** [Mở tại đây](https://docs.google.com/document/d/1oC_jUkEc209hjeUTOcHanv7sv8ReyUCzEE5bwnxLk2Y/edit?usp=sharing)
 - [Roadmap](#roadmap)
 
 ## Tổng quan
